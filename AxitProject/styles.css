@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+}
+.headder {
+    width: 100%;
+}
+.download-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.awesome-header{
+    margin: 108px auto;
+    width: 1110px;
+}
+h1 {
+    font-size: 36px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 30px auto;
+}
+.gray-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #a4a5a8;
+    text-align: center;
+}
+.awesome-box-round {
+    font-size: 32px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+.col-block {
+    font-size: 0;
+    margin-top: 80px;
+}
+.col {
+    font-family: "Open Sans", sans-serif;
+    width: 33.3%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.bold {
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-webfont.eot');
+    src: url('raleway-webfont.eot?#iefix') format('embedded-opentype'),
+    url('raleway-webfont.woff2') format('woff2'),
+    url('raleway-webfont.woff') format('woff'),
+    url('raleway-webfont.ttf') format('truetype'),
+    url('raleway-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.stylish-axure {
+    background: url(img/stylish_bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.white-line {
+    width: 64px;
+    height: 2px;
+    background: #ffffff;
+    margin: 30px auto;
+}
+.stylish-block{
+    padding: 75px 0;
+}
+.stylish {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.description-text {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+.download {
+    margin-top: 35px;
+    width: 131px;
+    height: 38px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+}
+.download-text {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+}
+.download-text:hover {
+    background: #000000;
+}
+.footer-box{
+    padding: 38px 0 15px 0;
+    background: #000000;
+    text-align: center;
+    color: #cccccc;
+}
+.footer-icons{
+    font-size: 24px;
+}
+.footer-text{
+    margin-top: 15px;
+    opacity: 0.4;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+div .footer-icons i {
+    margin-right: 30px;
+}
+.footer-icons i:nth-of-type(7) {
+    margin-right: 0;
+}
+.pricing-options {
+    background: #f5f5f5;
+    padding: 108px 0 100px 0;
+}
+.pricing-block {
+    width: 1110px;
+    margin: auto;
+}
+.bg-black {
+    font-weight: bold;
+    color: #ffffff;
+    background: #333333;
+    padding: 20px 0;
+}
+.white-bold {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.price {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 94px;
+    margin-top:30px;
+    margin-bottom: 0;
+}
+.dollar {
+    font-size: 35px;
+}
+.bonuses {
+    background: #ffffff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #86878b;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.payment {
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.4;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 20px;
+}
+.orange-line {
+    height: 5px;
+    background: #ff8b38;
+}
+.bg-line {
+    height: 2px;
+    background: #ffffff;
+}
+.our {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    background: #ff8b38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.contact-us {
+    background: #ffffff;
+    padding: 108px 0 100px 0;
+    text-align: center;
+}
+.contact-block {
+    width: 1110px;
+    margin: auto;
+}
+.send-message {
+    background: #ff8b38;
+    color: #ffffff;
+    margin-top: 40px;
+    width: 145px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+}
+.send-message:hover {
+    background: #000000;
+}
+.send-text {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.send-text a {
+    color: #ffffff;
+}
+input{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+}
+.form-col input {
+    border-bottom: 1px solid #bdbdbd;
+    margin-top: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    outline: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.form-col {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding: 0 35px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+.message {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.form-colblock {
+    font-size: 0;
+    margin-top: 55px;
+}
+.top-bg {
+    background: #000000;
+    width: 100%;
+}
+.top-logo {
+    width: 1110px;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 0;
+}
+.parameters a {
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 25px;
+    font-weight: 500;
+}
+.parameters a:hover {
+    font-weight: 900;
+    text-decoration:underline;
+}
+.parameters a:nth-of-type(5) {
+    margin-right: 0;
+}
+.parameters {
+    display: inline-block;
+    max-width: 360px;
+    float: right;
+}
+.logo {
+    display: inline-block;
+    width: 50%;
+}
+.bg-headder {
+    width: 100%;
+    background: url("img/headder_bg.jpg") no-repeat;
+    background-size: cover;
+}
+.top-text {
+    margin-top: 30px;
+    font-size: 36px;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.top-text-2 {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    opacity: 0.8;
+    color: #ffffff;
+}
+.top-form-block {
+    width: 360px;
+    height: 54px;
+    background: #f5f5f5;
+}
+.middle-form-block input {
+    width: 100%;
+}
+.top-form-text {
+    font-size: 20px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 54px;
+    font-weight: bold;
+}
+.top-form-text span {
+    color: #ff8b38;
+    line-height: 54px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 0;
+}
+.bot-form-block {
+    width: 360px;
+    height: 54px;
+    background: #ff9b51;
+}
+.bot-form-block:hover {
+    background: #000000;
+}
+.bot-form-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 54px;
+    text-align: center;
+}
+.middle-form-block {
+    padding: 50px 40px;
+    background: #ffffff;
+    margin: 0;
+}
+.middle-form-block div {
+    margin-bottom: 40px;
+}
+.middle-form-block div:nth-of-type(3) {
+    margin-bottom: 0;
+}
+.middle-form-block input {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+}
+.bot-headder {
+    background: #ffffff;
+    width: 100%;
+    padding: 23px 0;
+    box-shadow: 0 2px 0 0 #b7b7b7;
+}
+.box-white-block {
+    width: 1110px;
+    margin: auto;
+}
+.socialmedia {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.socialtext{
+    font-size: 14px;
+    color: #86878b;
+    font-family: "Open Sans", sans-serif;
+}
+.socialblock {
+    display: inline-block;
+    max-width: 365px;
+}
+.headder-icons {
+    display: inline-block;
+    font-size: 40px;
+    color: #cccccc;
+    float: right;
+    line-height: 65px;
+}
+.headder-icons i{
+    margin-right: 60px;
+}
+.headder-icons i:nth-of-type(7) {
+    margin-right: 0;
+}
+.textarea {
+    width: 100%;
+    height: 117px;
+    border-bottom: 1px solid #bdbdbd;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #bdbdbd;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #bdbdbd;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #bdbdbd;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #bdbdbd;
+}
+.tabsection {
+    background: #f5f5f5;
+    padding: 150px 0 115px 0;
+    box-sizing: border-box;
+}
+.tabcontainer {
+    width: 1110px;
+    margin: auto;
+}
+.tab {
+    height: 112px;
+    width: 112px;
+    background: #333333;
+    color: #ffffff;
+    line-height: 112px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.tab:hover{
+    background: #ff8b38;
+    cursor: pointer;
+}
+.tabblocks {
+    display: inline-block;
+}
+.tabblocks .tab:nth-child(2) {
+    margin: 1px 0 1px 0;
+}
+.tabcenter {
+    width: 480px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+}
+.tabheadder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tabtext {
+    color: #86878b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-top: 55px;
+}
+.cityimg {
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 90px;
+}
+.customers-container{
+    margin: 100px auto;
+    width: 1110px;
+}
+.customers-block {
+    width: 1060px;
+    margin: 55px auto 0;
+}
+.customers-block .chatblock:nth-child(2) {
+    margin: 0 115px 0;
+}
+.chatblock {
+    width: 273px;
+    display: inline-block;
+}
+.customer-info {
+    width: 185px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.jeremy-manager {
+    margin-left: 10px;
+}
+.jeremy {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.manager {
+    color: #86878b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.speech-bubble {
+    padding: 25px 15px;
+    background: #f5f5f5;
+    color: #86878b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: oblique;
+}
+.triangle {
+    border-top: 20px solid #f5f5f5;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    width: 0;
+    margin-left: 25px;
+}
