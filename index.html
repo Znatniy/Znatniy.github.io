@@ -7,28 +7,33 @@
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
     <title>Mosejko Dmitrij</title>
     <style>
-        body {
-            background-color: #FFFFFF;
-        }
 
-        div {
+        body {
+            background-image: url("background.jpeg");
+            background-size: cover;
+            width: 100%;
+            padding: 25px 0;
+            box-sizing: border-box;
             margin: 50px auto;
             font-size: 20px;
+            font-weight: bold;
             font-family: 'Slabo 27px', serif;
-            max-width: 600px;
+            max-width: 800px;
         }
+        .first-li {
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
 <body>
-    <div>
-        <div><a target="_blank" href="https://github.com/Znatniy">Ссылка</a> на git репозиторий.</div>
-            <li>
-                <a href="./MogoProject/index.html" target="_blank">MogoProject - HTML / CSS</a>
-            </li>
-            <li>
-                <a href="./AxitProject/index.html" target="_blank">AxitProject - HTML / CSS</a>
-            </li>
+    <div class="container">
+        <div>My Github profile <a target="_blank" href="https://github.com/Znatniy">link</a>.</div>
+            <ol>
+                <li class="first-li"><a href="./AxitProject/index.html" target="_blank">AxitProject - HTML / CSS</a></li>
+                <li><a href="./MogoProject/index.html" target="_blank">MogoProject - HTML / CSS</a></li>
+            </ol>
     </div>
 </body>
 
