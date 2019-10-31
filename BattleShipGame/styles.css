@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+div#table {
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: 863px;
+    background: url("table.jpg") no-repeat;
+}
+
+div#messageArea {
+    margin-top: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0px;
+}
+
+td {
+    width: 94px;
+    height: 94px;
+    border: 1px solid transparent;
+}
+
+form {
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
+    padding: 6px;
+    background-color: gray;
+}
+
+form input {
+    background-color: white;
+    border-color: black;
+    font-size: 18px;
+}
+
+input#fireButton {
+    font-weight: bold;
+    padding: 3px;
+    border: none;
+}
+input#fireButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.hit {
+    background: url("ship.png") no-repeat center;
+}
+
+.miss {
+    background: url("miss.png") no-repeat center;
+}
